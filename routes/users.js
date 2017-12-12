@@ -106,5 +106,11 @@ router.post('/signup', function(req, res, next) {
     }
   });
 });
+// router.get('/contacts', function(res, req, next) {
+//   res.render('contacts', {person: req.user});
+// });
+// router.post('/contacts', function(res, req, next) {
+//   client.query()
+// });
 
 module.exports = router;
